@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 gettext = lambda s: s
 DATA_DIR = os.path.dirname(os.path.dirname(__file__))
