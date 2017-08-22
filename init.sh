@@ -2,6 +2,6 @@
 
 virtualenv --system-site-packages env
 source env/bin/activate
-pip install -r requirements.txt
-./manage.py makemigrations
-./manage.py migrate
+pip install -r django_cms/requirements.txt
+django_cms/manage.py makemigrations
+django_cms/manage.py migrate
